@@ -1,6 +1,4 @@
-importScripts("/precache-manifest.7cd33c37778876c74ca00fff875e4c3e.js", "https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
-
-import firebase from "firebase";
+importScripts("/precache-manifest.a53ad94edba35609889b92aa225053da.js", "https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts('https://www.gstatic.com/firebasejs/5.6.0/firebase-app.js');
 importScripts('https://www.gstatic.com/firebasejs/5.6.0/firebase-messaging.js');
