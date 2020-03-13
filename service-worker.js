@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.af29e15d735cb6cb10f2036080381f2b.js"
+  "/precache-manifest.03ebdc7a6e62b1aff00b4f0904f078c9.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "tfg_app"});
