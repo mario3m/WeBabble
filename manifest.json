@@ -1,20 +1,20 @@
 {
-  "name": "tfg_app",
-  "short_name": "tfg_app",
+  "name": "WeBabble",
+  "short_name": "WeBabble",
   "icons": [
     {
-      "src": "./img/icons/android-chrome-192x192.png",
+      "src": "./LogoWeBabble.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "./img/icons/android-chrome-512x512.png",
+      "src": "./LogoWeBabble.png",
       "sizes": "512x512",
       "type": "image/png"
     }
   ],
   "start_url": "./index.html",
   "display": "standalone",
-  "background_color": "#000000",
-  "theme_color": "#4DBA87"
+  "background_color": "#ffffff",
+  "theme_color": "#285cd6"
 }
