@@ -1,4 +1,4 @@
-importScripts("/precache-manifest.976c1d3463c8461dd4e8c5f0734cffbe.js", "https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
+importScripts("/precache-manifest.19d2803569ada5d512f2b4a9ac4f1a9a.js", "https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts('https://www.gstatic.com/firebasejs/5.6.0/firebase-app.js');
 importScripts('https://www.gstatic.com/firebasejs/5.6.0/firebase-messaging.js');
@@ -18,7 +18,7 @@ firebase.initializeApp({
 
 const messaging = firebase.messaging();
 
-messaging.setBackgroundMessageHandler(function(payload) {
+messaging.setBackgroundMessageHandler(function (payload) {
     console.log('[firebase-messaging-sw.js] Received background message ', payload);
     // Customize notification here
     const notificationTitle = 'Background Message Title';
